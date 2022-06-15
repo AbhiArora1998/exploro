@@ -1,0 +1,186 @@
+body {
+
+    font-family: "Montserrat";
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+h3 {
+    
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+.bigHeading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.title-downlaod-row {
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+nav {
+    background-color: #ff4c68;
+}
+
+
+
+.mydiv {
+    padding: 3% 15% 0%;
+    position: relative;
+
+}
+
+/* this is for the navbar logo Exploro */
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+/* padding between those contact links */
+.nav-item {
+    padding: 0 18px;
+}
+
+/* contact and links */
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+/* download-button */
+.download-button {
+    margin: 30px 10px;
+}
+
+/* title-image */
+.title-image {
+    width: 60%;
+    position: relative;
+    top: 150px;
+
+    transform: rotate(20deg);
+}
+
+/* this is for icons colour  */
+.features-icon {
+    /* I got stuck here when i was trying to increase the size of the icon I was struggling furthermore when i increase the size of the box contianing it, my picture was on the far end of the box well crap */
+
+    font-size: 6rem;
+    color: #ef8172;
+    margin: 1rem;
+}
+
+#features {
+    background-color: white;
+    padding: 7% 15%;
+    text-align: center;
+    position: relative;
+}
+
+.features-box {
+    padding: 0 5%;
+}
+
+p {
+    color: cadetblue;
+}
+
+.features-icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.testimonials-img {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 100%;
+
+}
+
+/* carousel-item */
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-text{
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+#press {
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+
+}
+
+.pressImage {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+.card {
+    height: 100%;
+    padding: 3% 2%;
+}
+
+#pricing {
+    padding: 0;
+    text-align: center;
+}
+
+.dogsPricing{
+    font-size: 4rem;
+    line-height: 1.5;
+}
+/* signupButton */
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+
+    }
+}
+
+#cta {
+    color: white;
+    text-align: center;
+    background-color: #ef8172;
+    padding: 5% 25%;
+
+}
+
+#footer {
+    text-align: center;
+    padding: 2% 5%;
+}
+
+.logos {
+    padding: 10px;
+}
